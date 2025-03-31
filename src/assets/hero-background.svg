@@ -1,0 +1,24 @@
+<svg width="1440" height="800" viewBox="0 0 1440 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 砂岩白背景 -->
+  <rect width="1440" height="800" fill="#FAF6F0"/>
+  
+  <!-- 抽象食材肌理 - 牛油果纹理 -->
+  <g opacity="0.1">
+    <path d="M0,400 C200,350 400,450 600,400 S800,300 1000,350 S1200,450 1440,400" stroke="#8C9E7E" stroke-width="5" fill="none"/>
+    <path d="M0,430 C200,380 400,480 600,430 S800,330 1000,380 S1200,480 1440,430" stroke="#8C9E7E" stroke-width="4" fill="none"/>
+    <path d="M0,460 C200,410 400,510 600,460 S800,360 1000,410 S1200,510 1440,460" stroke="#8C9E7E" stroke-width="3" fill="none"/>
+  </g>
+  
+  <!-- 小麦米纹理 -->
+  <g opacity="0.08">
+    <circle cx="200" cy="600" r="100" stroke="#D4A57C" stroke-width="2" fill="none"/>
+    <circle cx="600" cy="200" r="120" stroke="#D4A57C" stroke-width="2" fill="none"/>
+    <circle cx="1100" cy="500" r="150" stroke="#D4A57C" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- 番茄红装饰元素 -->
+  <g opacity="0.05">
+    <circle cx="400" cy="700" r="50" fill="#B3423A"/>
+    <circle cx="1300" cy="250" r="40" fill="#B3423A"/>
+  </g>
+</svg> 

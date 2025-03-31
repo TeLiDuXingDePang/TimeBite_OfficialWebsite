@@ -1,0 +1,37 @@
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 厨房台面背景 -->
+  <rect width="600" height="400" fill="#FAF6F0" opacity="0.6"/>
+  
+  <!-- 食材1: 牛油果 -->
+  <g class="food-item avocado">
+    <path d="M120,150 C120,120 160,100 190,130 C220,160 220,200 190,230 C160,260 120,240 120,210 Z" fill="#8C9E7E" />
+    <ellipse cx="155" cy="180" rx="20" ry="30" fill="#E2D8C2"/>
+    <circle cx="155" cy="180" r="10" fill="#4A2F2B"/>
+  </g>
+  
+  <!-- 食材2: 小麦面包 -->
+  <g class="food-item bread">
+    <path d="M260,160 C260,130 300,130 340,140 C380,150 380,190 340,200 C300,210 260,190 260,160 Z" fill="#D4A57C" />
+    <path d="M280,160 C280,155 290,150 300,155 C310,155 320,155 330,160" stroke="#C29063" stroke-width="2" fill="none"/>
+    <path d="M280,170 C280,165 290,160 300,165 C310,165 320,165 330,170" stroke="#C29063" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- 食材3: 番茄 -->
+  <g class="food-item tomato">
+    <circle cx="450" cy="180" r="50" fill="#B3423A"/>
+    <path d="M450,140 C450,140 460,120 450,110" stroke="#8C9E7E" stroke-width="3" fill="none"/>
+    <ellipse cx="430" cy="160" rx="10" ry="5" fill="#D4A57C" opacity="0.5"/>
+  </g>
+  
+  <!-- 虚线箭头 - 表示食材流动/归类 -->
+  <path d="M210,250 C250,280 300,270 340,250 C380,230 430,240 470,260" stroke="#4A2F2B" stroke-width="2" stroke-dasharray="5,5" fill="none"/>
+  
+  <!-- 流动视觉元素 - 代表菜谱推荐 -->
+  <g class="recipe-flow">
+    <rect x="150" y="300" width="300" height="40" rx="5" fill="#FAF6F0" stroke="#8C9E7E" stroke-width="1"/>
+    <circle cx="170" cy="320" r="10" fill="#D4A57C"/>
+    <circle cx="200" cy="320" r="10" fill="#B3423A"/>
+    <line x1="230" y1="315" x2="420" y2="315" stroke="#4A2F2B" stroke-width="1"/>
+    <line x1="230" y1="325" x2="380" y2="325" stroke="#4A2F2B" stroke-width="1"/>
+  </g>
+</svg> 

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=Noto+Serif+SC:wght@400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-sandstone text-truffle;
+    min-height: 100vh;
+    font-family: 'Noto Sans SC', sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-serif;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-avocado hover:bg-wheat text-white px-6 py-3 rounded-md transition-colors duration-300 font-medium text-base shadow-sm;
+  }
+
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+
+  /* 实现风格铁律中的设计要求 */
+  .natural-texture {
+    background-image: url('/src/assets/food-pattern.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.06;
+  }
+}
+
+/* 动态规则 - 交互响应 */
+.hover-color-transition {
+  @apply transition-colors duration-500;
+}
+
+/* 视差效果的基础类 */
+.parallax-layer {
+  will-change: transform;
+  transform-style: preserve-3d;
+}
+
+/* 留白控制 */
+.whitespace-control {
+  @apply py-16 lg:py-24;
+}
